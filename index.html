@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Quiz - Hackathon Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Screen -->
+    <div id="homeScreen" class="screen active">
+        <div class="container">
+            <div class="logo">🚀</div>
+            <h1>Tech Quiz Challenge</h1>
+            <p class="subtitle">Test your tech knowledge in 15 questions</p>
+            
+            <div class="stats">
+                <div class="stat-box">
+                    <span class="stat-label">High Score</span>
+                    <span class="stat-value" id="highScore">0/15</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Attempts</span>
+                    <span class="stat-value" id="attempts">0</span>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" onclick="startQuiz()">Start Quiz</button>
+        </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quizScreen" class="screen">
+        <div class="quiz-container">
+            <!-- Header -->
+            <div class="quiz-header">
+                <div class="progress-info">
+                    <span>Question <span id="currentQuestion">1</span>/15</span>
+                    <div class="score-display">Score: <span id="scoreDisplay">0</span></div>
+                </div>
+                <div class="timer-container">
+                    <div class="timer" id="timer">30</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question -->
+            <div class="question-container">
+                <h2 id="questionText" class="question"></h2>
+            </div>
+
+            <!-- Options -->
+            <div class="options-container" id="optionsContainer">
+                <!-- Options will be dynamically generated -->
+            </div>
+
+            <!-- Next Button -->
+            <div class="button-container">
+                <button class="btn btn-next" id="nextBtn" onclick="nextQuestion()" disabled>Next Question</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="resultsScreen" class="screen">
+        <div class="results-container">
+            <div class="results-header">
+                <div class="final-score">
+                    <div class="score-circle">
+                        <span id="finalScore">0</span>
+                        <small>/15</small>
+                    </div>
+                </div>
+                <h1 id="resultMessage">Excellent!</h1>
+                <p id="resultSubtext">You got it right!</p>
+            </div>
+
+            <!-- Summary Table -->
+            <div class="summary-container">
+                <h3>Answer Summary</h3>
+                <div class="summary-list" id="summaryList">
+                    <!-- Summary items will be generated here -->
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="button-container">
+                <button class="btn btn-secondary" onclick="goHome()">Back to Home</button>
+                <button class="btn btn-primary" onclick="retakeQuiz()">Retake Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

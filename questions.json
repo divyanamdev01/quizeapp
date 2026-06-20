@@ -1,0 +1,169 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Home Tool Markup Language",
+        "Hyperlinks and Text Markup Language"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "Which programming language is known for web development?",
+      "options": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "C++"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "What is CSS used for?",
+      "options": [
+        "Server-side scripting",
+        "Database management",
+        "Styling web pages",
+        "Creating databases"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is NOT a programming language?",
+      "options": [
+        "Python",
+        "HTML",
+        "Java",
+        "C#"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "question": "What does API stand for?",
+      "options": [
+        "Application Programming Interface",
+        "Advanced Protocol Integration",
+        "Application Process Interaction",
+        "Advanced Programming Integration"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a NoSQL database?",
+      "options": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Oracle"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "question": "What is Git primarily used for?",
+      "options": [
+        "Code compilation",
+        "Version control",
+        "Database management",
+        "Web hosting"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "question": "Which framework is used for building user interfaces in JavaScript?",
+      "options": [
+        "Django",
+        "Flask",
+        "React",
+        "Laravel"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "question": "What does REST stand for in web services?",
+      "options": [
+        "Representational State Transfer",
+        "Remote Execution Server Technology",
+        "Reliable Endpoint Service Terminal",
+        "Resource Efficient Storage Transfer"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a statically typed language?",
+      "options": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "Ruby"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 11,
+      "question": "What is the time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n²)",
+        "O(1)"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is a frontend technology?",
+      "options": [
+        "Node.js",
+        "Express.js",
+        "Vue.js",
+        "Django"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 13,
+      "question": "What does JSON stand for?",
+      "options": [
+        "JavaScript Object Notation",
+        "Java Source Object Network",
+        "JavaScript Oriented Notation",
+        "Java Standard Object Number"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "Which HTTP method is used to retrieve data from a server?",
+      "options": [
+        "POST",
+        "GET",
+        "DELETE",
+        "PUT"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "question": "What is the main purpose of responsive web design?",
+      "options": [
+        "To make websites faster",
+        "To make websites work on all device sizes",
+        "To improve SEO ranking",
+        "To reduce server load"
+      ],
+      "correct": 1
+    }
+  ]
+}
